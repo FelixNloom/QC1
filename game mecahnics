@@ -1,0 +1,2 @@
+//Attack formula
+[(Player_atk + d9 + crit) * 2]  - mon_def
