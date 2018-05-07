@@ -5,8 +5,25 @@
 Checks for monster
 Checks for loot
 Checks room name
-Print: room name [You are in a something something sort of room..."
-Print: There is [a monster] here and/or some lootable shit.
+Print: room name i.e. "You are in a something something sort of room..."
+Print: [if] There is "a monster" here and/or [if] some lootable shit.
+Choices: What do you wanna do?
+  IF Monster
+    -Fight it
+    -Talk to it
+    -Bribe it
+    -Run!  
+   
+   IF NO monster or DED monster WITH loot
+    -Search room
+    -Leave
+    
+   IF NO monster or DED monster NO loot
+    "There's really nothing here of much interest."
+    -Leave
+    
+
+
 
 
 
