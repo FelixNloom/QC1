@@ -1,2 +1,12 @@
 //Attack formula
-[(Player_atk + d9 + crit) * 2]  - mon_def
+[(Player_atk + d10 + crit d10) * 2]  - [mon_def + d4]
+
+//When you enter a new square on the map...
+Checks for monster
+Checks for loot
+Checks room name
+Print: room name [You are in a something something sort of room..."
+Print: There is [a monster] here and/or some lootable shit.
+
+
+
