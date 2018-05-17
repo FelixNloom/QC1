@@ -1,0 +1,11 @@
+[
+null,
+{"id":1,"animationId":111,"description":"A simple hand-made tool for cutting.","etypeId":1,"traits":[],"iconIndex":104,"name":"+1 Shiv","note":"","params":[0,0,1,0,0,0,0,0],"price":1,"wtypeId":2},
+{"id":2,"animationId":6,"description":"Your favorite model of the Space Pistolleta series of laser pistols.","etypeId":1,"traits":[],"iconIndex":99,"name":"+2 Space pistol","note":"","params":[0,0,2,0,0,0,0,0],"price":500,"wtypeId":2},
+{"id":3,"animationId":1,"description":"It's a baseball bat, but whatever.","etypeId":1,"traits":[],"iconIndex":101,"name":"+4 club","note":"","params":[0,0,4,0,0,0,0,0],"price":500,"wtypeId":2},
+{"id":4,"animationId":11,"description":"Hey look! It's a decent weapon!","etypeId":1,"traits":[],"iconIndex":102,"name":"+6 a decent weapon","note":"","params":[0,0,6,0,0,0,0,0],"price":500,"wtypeId":2},
+{"id":5,"animationId":0,"description":"It's \"The Legendary Dzargon Sword\" of legend! What's it doing on this rock?","etypeId":1,"traits":[],"iconIndex":0,"name":"+8 Dzargon Sword","note":"","params":[0,0,8,0,0,0,0,0],"price":0,"wtypeId":2},
+{"id":6,"animationId":0,"description":"It kind of looks like a mop...","etypeId":1,"traits":[],"iconIndex":0,"name":"+13 Unlucky Polearm","note":"","params":[0,0,13,0,0,0,0,0],"price":0,"wtypeId":2},
+{"id":7,"animationId":0,"description":"","etypeId":1,"traits":[],"iconIndex":0,"name":"Chicken knife","note":"This weapon gets stronger every time you run away from battle.","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":2},
+{"id":8,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"Silicon spatula","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":2}
+]

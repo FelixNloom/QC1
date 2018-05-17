@@ -1,0 +1,7 @@
+18.04.2018
+-added HUD element to display game name and version number
+-removed individual scrolls and potions. instead scrolls and potions randomly increase a stat.
+-added "stat scroll" and "stat potion"
+-chests now work differently on the first floor. Before there was roughly a 1/16 chance to get any item. The odds of getting a pink potion has been increased. Various other changes have been made as well. With these changes and the reduction in the number of items in general, players should have a better time stocking up for later levels. 
+-added some pictures and added a bit of color to the text of some of the "item get" text boxes
+-fixed a bug that prevente the player from reading the note in Felix's shack
