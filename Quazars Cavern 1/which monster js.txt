@@ -1,0 +1,61 @@
+if ($gameVariables.value(38) == 0)
+	{
+		//0 means no monster
+	} 
+else if ($gameVariables.value(38) == 1)
+	{
+		
+		//RAT
+		//load battle stats
+		//tell game what speech craft to load
+		
+	}
+else if ($gameVariables.value(38) == 2)
+	{
+		//Snek
+	}
+else if ($gameVariables.value(38) == 3)
+	{
+		//GKC
+	}
+else if ($gameVariables.value(38) == 4)
+	{
+		//GobChef
+	}
+else if ($gameVariables.value(38) == 5)
+	{
+		//Ashura
+	}
+else if ($gameVariables.value(38) == 6)
+	{
+		//Hammond
+	}
+else if ($gameVariables.value(38) == 7)
+	{
+		//Meatless wanderer
+	}
+else if ($gameVariables.value(38) == 8)
+	{
+		//half-orc
+	}
+else if ($gameVariables.value(38) == 9)
+	{
+		//raging fungi
+	}
+else if ($gameVariables.value(38) == 10)
+	{
+		//xilef
+	}
+else if ($gameVariables.value(38) == 11)
+	{
+		
+		//mfq
+	}
+else if ($gameVariables.value(38) == 12)
+	{
+		//capdr
+	}
+else if ($gameVariables.value(38) == 13)
+	{
+		//whitey
+	}
