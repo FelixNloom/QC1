@@ -2,9 +2,9 @@ if ($gameVariables.value(1) == 8)
 	{
 		if ($gameVariables.value(2) == 8)
 		{
-			$gameVariables.setValue(61, $gameVariables.value(3)) //saves room
-			$gameVariables.setValue(62, $gameVariables.value(4)) //saves monster
-			$gameVariables.setValue(63, $gameVariables.value(5)) //saves loot
+			$gameVariables.setValue(61, $gameVariables.value(3)); //saves room
+			$gameVariables.setValue(62, $gameVariables.value(4)); //saves monster
+			$gameVariables.setValue(63, $gameVariables.value(5)); //saves loot
 		}
 		else if ($gameVariables.value(2) == 7)
 		{
