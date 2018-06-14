@@ -7,5 +7,6 @@ var $plugins =
 {"name":"SRD_HUDMaker","status":true,"description":"Allows developers to create their own map-based HUD through an in-game GUI window!","parameters":{"Active Updating":"false","Show During Events":"transparent","Map Global Condition":"","Battle Global Condition":"","Disable Delete Key":"true"}},
 {"name":"fun with orfices","status":true,"description":"","parameters":{}},
 {"name":"what to load function","status":true,"description":"","parameters":{}},
-{"name":"where to save function","status":true,"description":"","parameters":{}}
+{"name":"where to save function","status":true,"description":"","parameters":{}},
+{"name":"speech","status":true,"description":"","parameters":{}}
 ];
