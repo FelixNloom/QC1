@@ -8,5 +8,9 @@ var $plugins =
 {"name":"fun with orfices","status":true,"description":"","parameters":{}},
 {"name":"what to load function","status":true,"description":"","parameters":{}},
 {"name":"where to save function","status":true,"description":"","parameters":{}},
-{"name":"speech","status":true,"description":"","parameters":{}}
+{"name":"speech","status":true,"description":"","parameters":{}},
+{"name":"b2 mon rando","status":true,"description":"","parameters":{}},
+{"name":"b1 mon rando","status":true,"description":"","parameters":{}},
+{"name":"b3 mon rando","status":true,"description":"","parameters":{}},
+{"name":"b4 mon rando","status":true,"description":"","parameters":{}}
 ];
