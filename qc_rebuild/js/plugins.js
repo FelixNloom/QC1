@@ -12,5 +12,6 @@ var $plugins =
 {"name":"b2 mon rando","status":true,"description":"","parameters":{}},
 {"name":"b1 mon rando","status":true,"description":"","parameters":{}},
 {"name":"b3 mon rando","status":true,"description":"","parameters":{}},
-{"name":"b4 mon rando","status":true,"description":"","parameters":{}}
+{"name":"b4 mon rando","status":true,"description":"","parameters":{}},
+{"name":"lootfinder","status":true,"description":"","parameters":{}}
 ];

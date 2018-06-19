@@ -15,7 +15,7 @@ $gameVariables.setValue(17,($gameVariables.value(17) - $gameVariables.value(8)))
 //There's an external (in RMMV) check for a living mon	
 //IF mon still alive.		
 		
-		$gameVariables.setValue(8, (($gameVariables.value(16) + $gameVariables.value(7)) * 1.75) - $gameVariables.value(24));
+		$gameVariables.setValue(8, (($gameVariables.value(16) + $gameVariables.value(7)) * 1.75) - ($gameVariables.value(24) + $gameVariables.value(28)));
 		$gameVariables.setValue(23,($gameVariables.value(23) - $gameVariables.value(8)));
 
 

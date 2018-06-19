@@ -6,22 +6,29 @@ function lootFinder(loot)
 if (loot === 1)
 	{
 	$gameMessage.add("Holy crum! You found some rocket fuel!");
+	$gameVariables.setValue(5,0);
 	}
 else if (loot < 100)
 	{
-	$gameMessage.add("You found an Unholy Hand grenade!");
+	$gameMessage.add("You found an Unholy Hand Grenade!");
+	$gameParty.gainItem($dataItems[2], 1);
+	$gameVariables.setValue(5,0);
 	}
 else if (loot < 300)
 	{
 	$gameMessage.add("You found a health potion!");
+	$gameParty.gainItem($dataItems[1], 1);
+	$gameVariables.setValue(5,0);
 	}
 else if (loot < 600)
 	{
-	$gameMessage.add("You found some gold!");
+	$gameMessage.add("You found 500 floops!");
+	$gameParty.gainGold(500);
+	$gameVariables.setValue(5,0);
 	}
 else
 	{
-	$gameMessage.add("You searched but found nothing.");
+	$gameMessage.add("There's nothing to loot here..");
 	}
 }
 
