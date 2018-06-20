@@ -27,7 +27,7 @@ else if ($gameVariables.value(6) < 100)
 	}
 else if ($gameVariables.value(6) < 200)
 	{
-		$gameVariables.setValue(4,8); //half-orchmera
+		$gameVariables.setValue(4,8); //giant-cave tick
 		$gameVariables.setValue(17,222); //chimera hp
 		$gameVariables.setValue(16,28); //chimera atk
 		$gameVariables.setValue(14,14); //chimera def

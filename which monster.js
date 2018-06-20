@@ -20,7 +20,7 @@ else if ($gameVariables.value(4) == 3)
 	}
 else if ($gameVariables.value(4) == 4)
 	{
-		mon = "GobChef";
+		mon = "Evil Kiki";
 		printMonName(mon);
 	}
 else if ($gameVariables.value(4) == 5)
@@ -35,12 +35,12 @@ else if ($gameVariables.value(4) == 6)
 	}
 else if ($gameVariables.value(4) == 7)
 	{
-		mon = "Meatless wanderer";
+		mon = "Jeff";
 		printMonName(mon);
 	}
 else if ($gameVariables.value(4) == 8)
 	{
-		mon = "half-orc";
+		mon = "Giant Cave Tick";
 		printMonName(mon);
 	}
 else if ($gameVariables.value(4) == 9)
@@ -66,6 +66,6 @@ else if ($gameVariables.value(4) == 12)
 	}
 else if ($gameVariables.value(4) == 13)
 	{
-		mon = "whitey";
+		mon = "whiteye";
 		printMonName(mon);
 	}
