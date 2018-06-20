@@ -3,7 +3,12 @@
 
 function lootFinder(loot)
 {
-if (loot === 1)
+if (loot === 0)
+	{
+	$gameMessage.add("There's nothing to loot here..");
+	}
+	
+else if (loot === 1)
 	{
 	$gameMessage.add("Holy crum! You found some rocket fuel!");
 	$gameVariables.setValue(5,0);

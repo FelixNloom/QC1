@@ -1,5 +1,5 @@
 //game rolls game var #6 for between 0 and 6000
-function b1()
+function b1test()
 {
 if ($gameVariables.value(6) == 1)
 	{
@@ -19,7 +19,7 @@ else if ($gameVariables.value(6) == 1000)
 	}
 else if ($gameVariables.value(6) < 100)
 	{
-		$gameVariables.setValue(4,9); //raging fungi
+		$gameVariables.setValue(4,7); //raging fungi
 		$gameVariables.setValue(17,82); //fungi hp
 		$gameVariables.setValue(16,8); //fungi atk
 		$gameVariables.setValue(14,12); //fungi def
