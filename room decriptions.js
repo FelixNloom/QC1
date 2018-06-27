@@ -1,3 +1,5 @@
+function roomDesc()
+{
 if ($gameVariables.value(3) == 0)
 	{
 		$gameMessage.add("You are in a cavern full of mirrored rocks.");
@@ -36,3 +38,4 @@ else if ($gameVariables.value(3) == 8)
 	{
 		$gameMessage.add("You are in a pretty standard looking room of the cavern. For some reason you can faintly smell the aroma of freshly baked raspberry pie.");
 	}
+}

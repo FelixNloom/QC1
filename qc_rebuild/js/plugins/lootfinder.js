@@ -5,7 +5,7 @@ function lootFinder(loot)
 {
 if (loot === 0)
 	{
-	$gameMessage.add("There's nothing to loot here..");
+	$gameMessage.add("There's nothing to loot here.");
 	}
 	
 else if (loot === 1)
@@ -33,7 +33,7 @@ else if (loot < 600)
 	}
 else
 	{
-	$gameMessage.add("There's nothing to loot here..");
+	$gameMessage.add("There's nothing to loot here.");
 	}
 }
 

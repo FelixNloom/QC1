@@ -1,3 +1,5 @@
+function monTell ()
+{
 if ($gameVariables.value(4) == 0)
 	{
 		//0 means no monster
@@ -69,3 +71,4 @@ else if ($gameVariables.value(4) == 13)
 		mon = "whiteye";
 		printMonName(mon);
 	}
+}	

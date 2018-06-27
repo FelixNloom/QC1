@@ -14,5 +14,7 @@ var $plugins =
 {"name":"b3 mon rando","status":true,"description":"","parameters":{}},
 {"name":"b4 mon rando","status":true,"description":"","parameters":{}},
 {"name":"lootfinder","status":true,"description":"","parameters":{}},
-{"name":"b1 mon rando_test","status":true,"description":"","parameters":{}}
+{"name":"b1 mon rando_test","status":true,"description":"","parameters":{}},
+{"name":"room decriptions","status":true,"description":"","parameters":{}},
+{"name":"which monster","status":true,"description":"","parameters":{}}
 ];
