@@ -10,24 +10,24 @@ if (loot === 0)
 	
 else if (loot === 1)
 	{
-	$gameMessage.add("Holy crum! You found some rocket fuel!");
+	$gameMessage.add("Holy crum! You found some rocket fuel!");seItemget();
 	$gameVariables.setValue(5,0);
 	}
 else if (loot < 100)
 	{
-	$gameMessage.add("You found an Unholy Hand Grenade!");
+	$gameMessage.add("You found an Unholy Hand Grenade!");seItemget();
 	$gameParty.gainItem($dataItems[2], 1);
 	$gameVariables.setValue(5,0);
 	}
 else if (loot < 300)
 	{
-	$gameMessage.add("You found a health potion!");
+	$gameMessage.add("You found a health potion!");seItemget();
 	$gameParty.gainItem($dataItems[1], 1);
 	$gameVariables.setValue(5,0);
 	}
 else if (loot < 600)
 	{
-	$gameMessage.add("You found 500 floops!");
+	$gameMessage.add("You found 500 floops!");seItemget();
 	$gameParty.gainGold(500);
 	$gameVariables.setValue(5,0);
 	}

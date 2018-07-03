@@ -1,12 +1,12 @@
 [
 null,
-{"id":1,"expanded":true,"name":"MAP001","order":1,"parentId":0,"scrollX":645.75,"scrollY":556.5},
-{"id":2,"expanded":true,"name":"b2","order":2,"parentId":1,"scrollX":838.8,"scrollY":535.1999999999999},
+{"id":1,"expanded":true,"name":"MAP001","order":1,"parentId":0,"scrollX":574,"scrollY":398},
+{"id":2,"expanded":true,"name":"b2","order":2,"parentId":1,"scrollX":574,"scrollY":488.6666666666667},
 {"id":3,"expanded":true,"name":"b3","order":3,"parentId":1,"scrollX":832,"scrollY":640},
 {"id":4,"expanded":true,"name":"b4","order":4,"parentId":1,"scrollX":645.75,"scrollY":556.5},
-{"id":5,"expanded":true,"name":"\"studio\"","order":5,"parentId":0,"scrollX":1881.75,"scrollY":658.5},
-{"id":6,"expanded":false,"name":"Big House 2F","order":6,"parentId":5,"scrollX":854.25,"scrollY":895.5},
-{"id":7,"expanded":false,"name":"Lab Room","order":7,"parentId":5,"scrollX":645.75,"scrollY":556.5},
+{"id":5,"expanded":true,"name":"\"studio\"","order":5,"parentId":0,"scrollX":1882,"scrollY":658.6666666666666},
+{"id":6,"expanded":false,"name":"Big House 2F","order":6,"parentId":5,"scrollX":924.6666666666666,"scrollY":658.6666666666666},
+{"id":7,"expanded":false,"name":"Lab Room","order":7,"parentId":5,"scrollX":574,"scrollY":494.6666666666667},
 {"id":8,"expanded":false,"name":"MAP008","order":8,"parentId":0,"scrollX":1686,"scrollY":3602},
 {"id":9,"expanded":false,"name":"MAP009","order":9,"parentId":0,"scrollX":1686.75,"scrollY":544.5},
 {"id":10,"expanded":false,"name":"INTRO","order":10,"parentId":0,"scrollX":574,"scrollY":494.6666666666667}

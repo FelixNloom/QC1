@@ -22,8 +22,13 @@ function keyCheck()
 			if ($gameVariables.value(2) == $gameVariables.value(40))
 			{
 				$gameMessage.add("Hey, there's a key here!");
+				AudioManager.playSe({name: "found something", volume: 90, pitch: 100, pan: 0});
 				$gameSwitches.setValue(6, true);
 			} 
 		} 
 	}
 	
+function seItemget()
+	{	
+		AudioManager.playSe({name: "found something", volume: 90, pitch: 100, pan: 0});
+	}
