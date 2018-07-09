@@ -30,5 +30,5 @@ function keyCheck()
 	
 function seItemget()
 	{	
-		AudioManager.playSe({name: "found something", volume: 90, pitch: 100, pan: 0});
+		AudioManager.playSe({name: "found something", volume: 30, pitch: 100, pan: 0});
 	}
