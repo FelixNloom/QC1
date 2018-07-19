@@ -16,5 +16,6 @@ var $plugins =
 {"name":"lootfinder","status":true,"description":"","parameters":{}},
 {"name":"b1 mon rando_test","status":true,"description":"","parameters":{}},
 {"name":"room decriptions","status":true,"description":"","parameters":{}},
-{"name":"which monster","status":true,"description":"","parameters":{}}
+{"name":"which monster","status":true,"description":"","parameters":{}},
+{"name":"attack formula [xl]","status":true,"description":"","parameters":{}}
 ];

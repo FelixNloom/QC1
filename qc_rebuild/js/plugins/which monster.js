@@ -3,7 +3,7 @@ function monTell ()
 if ($gameVariables.value(4) == 0)
 	{
 		//0 means no monster
-		$gameMessage.add("There's no monster here.");
+		//$gameMessage.add("There's no monster here.");
 	} 
 else if ($gameVariables.value(4) == 1)
 	{

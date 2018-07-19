@@ -20,13 +20,13 @@ function playerAttack(){
 		
 //There's an external (in RMMV) check for a living mon	
 //IF mon still alive.		
-		
+
+function monsterAttack(){
 		$gameVariables.setValue(8, (($gameVariables.value(16) + $gameVariables.value(7)) * 1.75) - ($gameVariables.value(24) + $gameVariables.value(28)));
-		if ($gameVariables.value(8) <= 0) 
-		{
+		if ($gameVariables.value(8) <= 0){
 			$gameVariables.setValue(8, 1);
 		}
 		$gameVariables.setValue(23,($gameVariables.value(23) - $gameVariables.value(8)));
-
+}
 
 
