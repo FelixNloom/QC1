@@ -11,25 +11,25 @@ else if (loot === 1){
 	seItemget();
 	$gameVariables.setValue(5,0);
 	}
-else if (loot < 100){
+else if (loot < 101){
 	textBox("You found an Unholy Hand Grenade!");//unholy hand grenade
 	seItemget();
 	$gameParty.gainItem($dataItems[2], 1);
 	$gameVariables.setValue(5,0);
 	}
-else if (loot < 300){
+else if (loot < 303){
 	textBox("You found a health potion!");//health potion
 	seItemget();
 	$gameParty.gainItem($dataItems[1], 1);
 	$gameVariables.setValue(5,0);
 	}
-else if (loot < 600){
+else if (loot < 606){
 	textBox("You found 500 floops!");//500 floops
 	seItemget();
 	$gameParty.gainGold(500);
 	$gameVariables.setValue(5,0);
 	}
-else if (loot < 900){
+else if (loot < 707){
 	if ($gameVariables.value(32)===0){
 		textBox("You found a machete!");//machete
 		seItemget();
@@ -37,7 +37,7 @@ else if (loot < 900){
 		$gameVariables.setValue(5,0);
 	}
 	else{
-		textBox("You found a padded suit!");//padded suit
+		textBox("You found padded armor!");//padded suit
 		seItemget();
 		$gameParty.gainItem($dataItems[10], 1);
 		$gameVariables.setValue(5,0);
@@ -45,7 +45,7 @@ else if (loot < 900){
 	
 }
 
-else if (loot < 1100){
+else if (loot < 755){
 	if ($gameVariables.value(32)===0){
 		textBox("You found a sword!");//sword
 		seItemget();
@@ -60,7 +60,7 @@ else if (loot < 1100){
 	}
 	
 }
-else if (loot < 1300){
+else if (loot < 777){
 	if ($gameVariables.value(32)===0){
 		textBox("You found a cursed polearm!!");//polearm
 		seItemget();
