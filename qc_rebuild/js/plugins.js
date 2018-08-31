@@ -3,8 +3,8 @@
 var $plugins =
 [
 {"name":"Community_Basic","status":true,"description":"Plugin used to set basic parameters.","parameters":{"cacheLimit":"10","screenWidth":"816","screenHeight":"624","changeWindowWidthTo":"","changeWindowHeightTo":"","renderingMode":"auto","alwaysDash":"off"}},
-{"name":"SRD_SuperToolsEngine","status":true,"description":"The heart of all maker-style plugins; it adds a playtesting editor that can be opened with F12.","parameters":{"Connect Editor":"true","Auto Open Window":"false","Auto Move Window":"true","Menu Editor Exempt List":"[\"Window_BattleLog\",\"Window_MapName\"]"}},
-{"name":"SRD_HUDMaker","status":true,"description":"Allows developers to create their own map-based HUD through an in-game GUI window!","parameters":{"Active Updating":"false","Show During Events":"transparent","Map Global Condition":"","Battle Global Condition":"","Disable Delete Key":"true"}},
+{"name":"SRD_SuperToolsEngine","status":false,"description":"The heart of all maker-style plugins; it adds a playtesting editor that can be opened with F12.","parameters":{"Connect Editor":"true","Auto Open Window":"false","Auto Move Window":"true","Menu Editor Exempt List":"[\"Window_BattleLog\",\"Window_MapName\"]"}},
+{"name":"SRD_HUDMaker","status":false,"description":"Allows developers to create their own map-based HUD through an in-game GUI window!","parameters":{"Active Updating":"false","Show During Events":"transparent","Map Global Condition":"","Battle Global Condition":"","Disable Delete Key":"true"}},
 {"name":"fun with orfices","status":true,"description":"","parameters":{}},
 {"name":"what to load function","status":true,"description":"","parameters":{}},
 {"name":"where to save function","status":true,"description":"","parameters":{}},
@@ -18,5 +18,6 @@ var $plugins =
 {"name":"room decriptions","status":true,"description":"","parameters":{}},
 {"name":"which monster","status":true,"description":"","parameters":{}},
 {"name":"attack formula [xl]","status":true,"description":"","parameters":{}},
-{"name":"token_location","status":true,"description":"","parameters":{}}
+{"name":"token_location","status":true,"description":"","parameters":{}},
+{"name":"room_info","status":true,"description":"","parameters":{}}
 ];
